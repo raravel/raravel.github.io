@@ -1,0 +1,40 @@
+name: build CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm ci
+    - run: rm -rf docs
+    - run: npm run build
+    - run: rm -rf package-lock.json node_modules
+    - name: push
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'build commit'
+        force-add: 'true'
+        name: 'Github Actions'
+        email: 'git.page-story@gmail.com'
+        file-path: |
+          meta-data.json
+          docs/**

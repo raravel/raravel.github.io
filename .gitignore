@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+*.log
+.deploy*/
+*.swp
+yarn.lock
+package-lock.json
+node_modules
