@@ -3,6 +3,9 @@ cover: /images/banner.jpg
 tags:
   - tag1
   - tag2
+categories:
+  - category1
+  - category2
 title: sadfasdfsadf
 date: '2021-05-23 18:13:15'
 ---
