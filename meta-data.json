@@ -2,7 +2,7 @@
 	{
 		"title": "asdfasdfasf",
 		"href": "2021/05/23/asdfasdfasf/",
-		"updated": "2021-05-23T09:36:42Z",
+		"updated": "2021-05-23T09:38:53Z",
 		"src": "source/_posts/asdfasdfasf.md",
 		"categories": [],
 		"tags": [],
@@ -12,7 +12,7 @@
 	{
 		"title": "Hello World",
 		"href": "2021/05/23/hello-world/",
-		"updated": "2021-05-23T09:36:42Z",
+		"updated": "2021-05-23T09:38:53Z",
 		"src": "source/_posts/hello-world.md",
 		"categories": [],
 		"tags": [],
@@ -22,7 +22,7 @@
 	{
 		"title": "sadfasdfsadf",
 		"href": "2021/05/23/sadfasdfsadf/",
-		"updated": "2021-05-23T09:36:42Z",
+		"updated": "2021-05-23T09:38:53Z",
 		"src": "source/_posts/sadfasdfsadf.md",
 		"categories": [
 			"category1",
@@ -36,9 +36,22 @@
 		"content": "<p>내용dfsasdfasdf<img src=\"/images/2021-05-23_181315/image0\" alt=\"image0\"></p>\n<figure class=\"highlight js\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"keyword\">const</span> fs = <span class=\"built_in\">require</span>(<span class=\"string\">&#x27;fs&#x27;</span>);</span><br><span class=\"line\">fs.writeFileSync(<span class=\"string\">&#x27;test.txt&#x27;</span>, <span class=\"string\">&#x27;test&#x27;</span>, <span class=\"string\">&#x27;utf8&#x27;</span>);</span><br></pre></td></tr></table></figure>\n\n<h1 id=\"제목\"><a href=\"#제목\" class=\"headerlink\" title=\"제목\"></a>제목</h1><hr>\n<p>테스트</p>\n<p><img src=\"/images/2021-05-23_181315/image1\" alt=\"image1\"></p>\n"
 	},
 	{
+		"title": "제목이 다르다구요",
+		"href": "2021/05/23/제목이_다르다구요/",
+		"updated": "2021-05-23T18:38:22Z",
+		"src": "source/_posts/제목이_다르다구요.md",
+		"categories": [],
+		"tags": [
+			"tag1",
+			"tag3"
+		],
+		"cover": "https://www.istockphoto.com/resources/images/HomePage/Hero/1204187820.jpg",
+		"content": "<p>[object Promise]</p>\n"
+	},
+	{
 		"title": "테스트제목",
 		"href": "2021/05/23/테스트제목/",
-		"updated": "2021-05-23T09:36:42Z",
+		"updated": "2021-05-23T09:38:53Z",
 		"src": "source/_posts/테스트제목.md",
 		"categories": [],
 		"tags": [
