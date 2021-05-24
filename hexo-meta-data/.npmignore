@@ -1,0 +1,5 @@
+node_modules
+meta-data.json
+.git
+.gitignore
+yarn.lock

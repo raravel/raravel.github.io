@@ -1,0 +1,22 @@
+{
+	"name": "@git-story/hexo-meta-data",
+	"version": "1.0.5",
+	"author": {
+		"name": "git-story",
+		"email": "git.page.story@gmail.com"
+	},
+	"description": "",
+	"main": "meta-data.js",
+	"bin": {
+		"hexo-meta-data": "meta-data.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "git-story",
+	"license": "MIT",
+	"dependencies": {
+		"hexo": "^5.0.0"
+	}
+}
