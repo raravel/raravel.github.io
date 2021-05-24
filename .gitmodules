@@ -1,0 +1,3 @@
+[submodule "hexo-meta-data"]
+	path = hexo-meta-data
+	url = https://github.com/git-story/hexo-meta-data
