@@ -10,7 +10,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "@git-story/hexo-meta-data": "^1.1.0",
+    "@git-story/hexo-meta-data": "^1.1.1",
     "hexo": "^5.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
