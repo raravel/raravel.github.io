@@ -2,8 +2,8 @@
 	{
 		"title": "커버 테스트2",
 		"href": "2021/05/24/20210524202714_커버_테스트2/",
-		"date": "2021-05-24T20:27:14Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T11:27:14Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524202714_커버_테스트2.md",
 		"categories": [],
 		"tags": [],
@@ -13,8 +13,8 @@
 	{
 		"title": "커버 테스트",
 		"href": "2021/05/24/20210524201530_커버_테스트/",
-		"date": "2021-05-24T20:15:30Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T11:15:30Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524201530_커버_테스트.md",
 		"categories": [],
 		"tags": [],
@@ -22,21 +22,10 @@
 		"content": "ㅁㄴㅇㄻㄴㅇㄹ내용 "
 	},
 	{
-		"title": "zwc",
-		"href": "2021/05/24/20210524112828_zwc/",
-		"date": "2021-05-24T11:28:28Z",
-		"updated": "2021-05-25T13:36:24Z",
-		"src": "source/_posts/20210524112828_zwc.md",
-		"categories": [],
-		"tags": [],
-		"cover": "",
-		"content": "내용 "
-	},
-	{
 		"title": "zxcvwer",
 		"href": "2021/05/24/20210524111915_zxcvwer/",
-		"date": "2021-05-24T11:19:15Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T02:19:15Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524111915_zxcvwer.md",
 		"categories": [],
 		"tags": [],
@@ -46,8 +35,8 @@
 	{
 		"title": "asdbasdb",
 		"href": "2021/05/24/20210524111631_asdbasdb/",
-		"date": "2021-05-24T11:16:31Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T02:16:31Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524111631_asdbasdb.md",
 		"categories": [],
 		"tags": [],
@@ -57,8 +46,8 @@
 	{
 		"title": "sadfasf",
 		"href": "2021/05/24/20210524111330_sadfasf/",
-		"date": "2021-05-24T11:13:30Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T02:13:30Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524111330_sadfasf.md",
 		"categories": [],
 		"tags": [],
@@ -68,8 +57,8 @@
 	{
 		"title": "아침부터 저녁까지 테스트",
 		"href": "2021/05/24/20210524104309_아침부터_저녁까지_테스트/",
-		"date": "2021-05-24T10:43:09Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-24T01:43:09Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/20210524104309_아침부터_저녁까지_테스트.md",
 		"categories": [],
 		"tags": [],
@@ -79,8 +68,8 @@
 	{
 		"title": "으아아아아",
 		"href": "2021/05/23/으아아아아/",
-		"date": "2021-05-23T18:40:17Z",
-		"updated": "2021-05-23T18:50:55Z",
+		"date": "2021-05-23T09:40:17Z",
+		"updated": "2021-05-23T09:50:55Z",
 		"src": "source/_posts/으아아아아.md",
 		"categories": [],
 		"tags": [
@@ -93,8 +82,8 @@
 	{
 		"title": "제목이 다르다구요",
 		"href": "2021/05/23/제목이_다르다구요/",
-		"date": "2021-05-23T18:36:07Z",
-		"updated": "2021-05-23T18:38:22Z",
+		"date": "2021-05-23T09:36:07Z",
+		"updated": "2021-05-23T09:38:22Z",
 		"src": "source/_posts/제목이_다르다구요.md",
 		"categories": [],
 		"tags": [
@@ -107,8 +96,8 @@
 	{
 		"title": "테스트제목",
 		"href": "2021/05/23/테스트제목/",
-		"date": "2021-05-23T18:36:07Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-23T09:36:07Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/테스트제목.md",
 		"categories": [],
 		"tags": [
@@ -121,8 +110,8 @@
 	{
 		"title": "sadfasdfsadf",
 		"href": "2021/05/23/sadfasdfsadf/",
-		"date": "2021-05-23T18:13:15Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-23T09:13:15Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/sadfasdfsadf.md",
 		"categories": [
 			"category1",
@@ -138,8 +127,8 @@
 	{
 		"title": "Hello World",
 		"href": "2021/05/23/hello-world/",
-		"date": "2021-05-23T15:32:21Z",
-		"updated": "2021-05-25T13:36:24Z",
+		"date": "2021-05-23T06:32:21Z",
+		"updated": "2021-05-25T13:52:53Z",
 		"src": "source/_posts/hello-world.md",
 		"categories": [],
 		"tags": [],
