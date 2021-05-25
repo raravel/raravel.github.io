@@ -25,7 +25,8 @@ jobs:
     - run: npm ci
     - run: rm -rf docs
     - run: npm run build
-    - run: rm -rf package-lock.json node_modules
+    - run: rm -rf package-lock.json node_modules docs/images
+    - run: cp -r source/images docs/images
     - name: push
       uses: github-actions-x/commit@v2.6
       with:
