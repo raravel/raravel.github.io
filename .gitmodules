@@ -6,3 +6,7 @@
 	path = themes/Miracle
 	url = https://github.com/hifun-team/hexo-theme-miracle
 
+[submodule "simple99"]
+	path = themes/simple99
+	url = https://github.com/shuxhan/hexo-theme-simple99
+
