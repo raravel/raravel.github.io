@@ -44,6 +44,8 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+lazyload:
+  enable: false
 index_generator:
   path: ''
   per_page: 10
