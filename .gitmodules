@@ -1,3 +1,8 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = https://github.com/hexojs/hexo-theme-landscape
+
+[submodule "Miracle"]
+	path = themes/Miracle
+	url = https://github.com/hifun-team/hexo-theme-miracle
+
