@@ -9,9 +9,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
 
-
-<meta name="keywords" content="tag1,tag3,">
-<meta name="description" content="">
+<meta name="keywords" content="hexo主题,hexo扁平化主题,Quiet主题">
+<meta name="description" content="描述">
 
 
 <script src="/js/jquery.min.js"></script>
@@ -244,12 +243,6 @@
     <div class="bg-content">
         <ul class="tag">
             
-            
-            <li><a href="/tags/tag1">tag1</a></li>
-            
-            <li><a href="/tags/tag3">tag3</a></li>
-            
-            
         </ul>
         <h1>으아아아아</h1>
         <div class="article-info">
@@ -264,7 +257,7 @@
                 </svg>
                 
                 <span> <a href="">CHANGEQ</a></span>
-                <p>2021-05-23 18:40:17</p>
+                <p>2021-05-23 09:40:17</p>
             </div>
         </div>
     </div>
@@ -274,7 +267,7 @@
         <p><img src="/images/2021-05-23_184017/image0.png" alt="image0"></p>
 <h1 id="제목태그"><a href="#제목태그" class="headerlink" title="제목태그"></a>제목태그</h1><p>내용이 뭐시기 뭐시기</p>
 <hr>
-<figure class="highlight js"><table><tr><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> pluckDeep = <span class="hljs-function"><span class="hljs-params">key</span> =&gt;</span> <span class="hljs-function"><span class="hljs-params">obj</span> =&gt;</span> key.split(<span class="hljs-string">&#x27;.&#x27;</span>).reduce(<span class="hljs-function">(<span class="hljs-params">accum, key</span>) =&gt;</span> accum[key], obj)<br><br><span class="hljs-keyword">const</span> compose = <span class="hljs-function">(<span class="hljs-params">...fns</span>) =&gt;</span> <span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> fns.reduce(<span class="hljs-function">(<span class="hljs-params">accum, next</span>) =&gt;</span> next(accum), res)<br><br><span class="hljs-keyword">const</span> unfold = <span class="hljs-function">(<span class="hljs-params">f, seed</span>) =&gt;</span> &#123;<br>  <span class="hljs-keyword">const</span> go = <span class="hljs-function">(<span class="hljs-params">f, seed, acc</span>) =&gt;</span> &#123;<br>    <span class="hljs-keyword">const</span> res = f(seed)<br>    <span class="hljs-keyword">return</span> res ? go(f, res[<span class="hljs-number">1</span>], acc.concat([res[<span class="hljs-number">0</span>]])) : acc<br>  &#125;<br>  <span class="hljs-keyword">return</span> go(f, seed, [])<br>&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> pluckDeep = <span class="function"><span class="params">key</span> =&gt;</span> <span class="function"><span class="params">obj</span> =&gt;</span> key.split(<span class="string">&#x27;.&#x27;</span>).reduce(<span class="function">(<span class="params">accum, key</span>) =&gt;</span> accum[key], obj)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> compose = <span class="function">(<span class="params">...fns</span>) =&gt;</span> <span class="function"><span class="params">res</span> =&gt;</span> fns.reduce(<span class="function">(<span class="params">accum, next</span>) =&gt;</span> next(accum), res)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> unfold = <span class="function">(<span class="params">f, seed</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> go = <span class="function">(<span class="params">f, seed, acc</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> res = f(seed)</span><br><span class="line">    <span class="keyword">return</span> res ? go(f, res[<span class="number">1</span>], acc.concat([res[<span class="number">0</span>]])) : acc</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> go(f, seed, [])</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><img src="/images/2021-05-23_184017/image1.png" alt="image1"></p>
 
