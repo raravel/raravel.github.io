@@ -10,3 +10,6 @@
 	path = themes/simple99
 	url = https://github.com/shuxhan/hexo-theme-simple99
 
+[submodule "themes/Quiet"]
+	path = themes/Quiet
+	url = https://github.com/QiaoBug/hexo-theme-quiet
