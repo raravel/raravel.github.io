@@ -13,6 +13,6 @@
 [submodule "themes/Quiet"]
 	path = themes/Quiet
 	url = https://github.com/QiaoBug/hexo-theme-quiet
-[submodule "themes/keep"]
-	path = themes/keep
+[submodule "themes/Keep"]
+	path = themes/Keep
 	url = https://github.com/XPoet/hexo-theme-keep
