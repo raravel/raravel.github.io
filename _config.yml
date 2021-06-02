@@ -52,4 +52,4 @@ index_generator:
   order_by: '-date'
 plugins:
   - hexo-server
-theme: butterfly
+theme: Keep
