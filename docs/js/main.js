@@ -1,65 +1,124 @@
-/* global KEEP */
+$(function() {
+    var isPhone = $(window).width() < 768;
 
-window.addEventListener('DOMContentLoaded', () => {
+    init();
 
-  KEEP.themeInfo = {
-    theme: `Keep v${KEEP.theme_config.version}`,
-    author: 'XPoet',
-    repository: 'https://github.com/XPoet/hexo-theme-keep'
-  }
+    function init() {
+        // $('.material-preloader').hide();
+        initialNavToggle();
+        setupRipple();
+        slidingBorder();
+        toc();
 
-  KEEP.localStorageKey = 'KEEP-THEME-STATUS';
-
-  KEEP.styleStatus = {
-    isExpandPageWidth: false,
-    isDark: false,
-    fontSizeLevel: 0,
-    isOpenPageAside: true
-  }
-
-  // print theme base info
-  KEEP.printThemeInfo = () => {
-    console.log(`\n %c ${KEEP.themeInfo.theme} %c ${KEEP.themeInfo.repository} \n`, `color: #fadfa3; background: #333; padding: 5px 0;`, `background: #fadfa3; padding: 5px 0;`);
-  }
-
-  // set styleStatus to localStorage
-  KEEP.setStyleStatus = () => {
-    localStorage.setItem(KEEP.localStorageKey, JSON.stringify(KEEP.styleStatus));
-  }
-
-  // get styleStatus from localStorage
-  KEEP.getStyleStatus = () => {
-    let temp = localStorage.getItem(KEEP.localStorageKey);
-    if (temp) {
-      temp = JSON.parse(temp);
-      for (let key in KEEP.styleStatus) {
-        KEEP.styleStatus[key] = temp[key];
-      }
-      return temp;
-    } else {
-      return null;
-    }
-  }
-
-  KEEP.refresh = () => {
-    KEEP.initUtils();
-    KEEP.initHeaderShrink();
-    KEEP.initModeToggle();
-    KEEP.initBack2Top();
-
-    if (KEEP.theme_config.local_search.enable === true) {
-      KEEP.initLocalSearch();
+        // $('.post-content img').on('click',function(){
+        //     window.open($(this).attr('src'));
+        // });
     }
 
-    if (KEEP.theme_config.code_copy.enable === true) {
-      KEEP.initCodeCopy();
+    function slidingBorder() {
+        // sliding border
+        var $activeState = $('.nav-indicator', 'nav'),
+            $navParent = $('.menu-wrapper', 'nav'),
+            overNav = false,
+            $hoveredLink,
+            $activeLink = $("ul.menus li.active a"),
+            activeHideTimeout;
+        setActiveLink(true);
+        $('.menu-wrapper ul.menus li').on('mousemove', onLinkHover);
+        $('.menu-wrapper').on('mouseleave', onLinksLeave);
+
+        function onLinkHover(e) {
+            if (!isPhone) {
+                $hoveredLink = e.target ? $(e.target) : e;
+                if (!$hoveredLink.is('li')) {
+                    $hoveredLink = $hoveredLink.parent('li');
+                }
+                var left = $hoveredLink.offset().left - $navParent.offset().left,
+                    width = $hoveredLink.width();
+                if (0 != $activeLink.length || overNav) {
+                    $activeState.css({
+                        transform: "translate3d(" + left + "px, 0, 0) scaleX(" + width / 100 + ")"
+                    });
+                } else {
+                    clearTimeout(activeHideTimeout),
+                        $activeState.css({
+                            transform: "translate3d(" + (left + width / 2) + "px, 0, 0) scaleX(0.001)"
+                        });
+                    setTimeout(function() {
+                        $activeState.addClass("animate-indicator").css({
+                            transform: "translate3d(" + left + "px, 0, 0) scaleX(" + width / 100 + ")"
+                        })
+                    }, 10);
+                }
+                overNav = true;
+            }
+        }
+
+        function onLinksLeave(e) {
+            if (!isPhone) {
+                if (0 == $activeLink.length) {
+                    var left = $hoveredLink.offset().left - $navParent.offset().left,
+                        width = $hoveredLink.width();
+                    $activeState.css({
+                        'transform': "translate3d(" + (left + width / 2) + "px, 0, 0) scaleX(0.001)"
+                    });
+                    activeHideTimeout = setTimeout(function() {
+                        $activeState.removeClass("animate-indicator")
+                    }, 200);
+                } else {
+                    onLinkHover($activeLink);
+                }
+                overNav = false;
+            }
+        }
+
+        function setActiveLink(load) {
+            if ($activeLink.length > 0) {
+                var left = $activeLink.offset().left - $navParent.offset().left;
+                $activeState.css({
+                    'transform': "translate3d(" + (left + $activeLink.width() / 2) + "px, 0, 0) scaleX(0.001)"
+                });
+                setTimeout(function() {
+                    $activeState.addClass("animate-indicator"),
+                        onLinkHover($activeLink)
+                }, 100);
+            }
+        }
     }
 
-    if (KEEP.theme_config.lazyload.enable === true) {
-      KEEP.initLazyLoad();
+    function toc() {
+        if (!isPhone) {
+            //toc
+            $('#toc').html('');
+            $('#toc').tocify({
+                'selectors': 'h2,h3',
+                'extendPage': false,
+                'theme': 'none',
+                'scrollHistory':false
+            });
+        }
     }
-  }
 
-  KEEP.printThemeInfo();
-  KEEP.refresh();
-});
+    function initialNavToggle() {
+        //nav icon morphing
+        $('.nav-toggle-icon').click(function() {
+            $('body').toggleClass('nav-active');
+            $(this).toggleClass('active').find('.material-hamburger').toggleClass('opened');
+            $('.menu-wrapper').toggleClass('active');
+            $('.logo').toggleClass('fixed');
+        });
+    }
+
+    function setupRipple() {
+        // ripple click http://fian.my.id/Waves/#start
+        Waves.attach('.wave');
+        Waves.attach('.main.index .post-header.with-cover');
+        Waves.attach('.pagination a');
+        Waves.attach('.pager .pager-item', ['waves-button']);
+        Waves.attach('.btn', ['waves-button']);
+        Waves.init();
+    }
+
+})
+
+
