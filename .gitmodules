@@ -26,3 +26,7 @@
 	path = themes/Keep
 	url = https://github.com/XPoet/hexo-theme-keep
 
+[submodule "Quiet"]
+	path = themes/Quiet
+	url = https://github.com/QiaoBug/hexo-theme-quiet
+
