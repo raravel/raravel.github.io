@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://raravel.github.io/2021/06/03/20210603100203_ehaerhae/</loc>
+    
+    <lastmod>2021-06-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/2021/06/02/20210602171547_sdfh/</loc>
+    
+    <lastmod>2021-06-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/2021/06/02/20210602170932_wergweg/</loc>
+    
+    <lastmod>2021-06-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://raravel.github.io/2021/05/28/20210528140117_category2/</loc>
     
     <lastmod>2021-05-29</lastmod>
@@ -73,6 +94,48 @@
   </url>
 
   
+  <url>
+    <loc>https://raravel.github.io/tags/tag1/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/tags/tag2/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/tags/tag3/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC11/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC11/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC111/</loc>
+    <lastmod>2021-06-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
