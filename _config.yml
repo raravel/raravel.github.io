@@ -53,3 +53,11 @@ index_generator:
 plugins:
   - hexo-server
 theme: Keep
+sitemap:
+  path: sitemap.xml
+nofollow:
+  enable: true
+feed:
+  type: rss2
+  path: feed.xml
+  limit: 20

@@ -52,7 +52,7 @@
 		"categories": [],
 		"tags": [],
 		"cover": "https://www.istockphoto.com/resources/images/HomePage/Hero/1204187820.jpg",
-		"content": " 제목태그내용이 뭐시기 뭐시기  1234567891011const pluckDeep = k ..."
+		"content": " 제목태그내용이 뭐시기 뭐시기  const pluckDeep = key => obj =>  ..."
 	},
 	{
 		"title": "제목이 다르다구요",
