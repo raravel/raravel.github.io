@@ -9,8 +9,33 @@
     <atom:link href="https://raravel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Description</description>
-    <pubDate>Tue, 08 Jun 2021 09:42:48 GMT</pubDate>
+    <pubDate>Tue, 08 Jun 2021 13:43:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>asdfasdf</title>
+      <link>https://raravel.github.io/2021/06/08/20210608224235_asdfasdf/</link>
+      <guid>https://raravel.github.io/2021/06/08/20210608224235_asdfasdf/</guid>
+      <pubDate>Tue, 08 Jun 2021 22:42:35 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;내용asdfasdfasdfasdf&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>내용asdfasdfasdfasdf</p>]]></content:encoded>
+      
+      
+      <category domain="https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/">새 카테고리1</category>
+      
+      
+      
+      <comments>https://raravel.github.io/2021/06/08/20210608224235_asdfasdf/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>dfgdfgdf</title>
