@@ -52,7 +52,7 @@ index_generator:
   order_by: '-date'
 plugins:
   - hexo-server
-theme: fluid
+theme: butterfly
 sitemap:
   path: sitemap.xml
 nofollow:
