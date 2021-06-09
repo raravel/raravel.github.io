@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://raravel.github.io/2021/06/08/20210608231515_%E3%85%81%E3%85%88%E3%84%B7%EA%B3%B6%E3%85%81%EB%8F%94%E3%85%88%E3%84%B7%EA%B3%A0/</loc>
-    
-    <lastmod>2021-06-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://raravel.github.io/2021/06/03/20210603100203_ehaerhae/</loc>
-    
-    <lastmod>2021-06-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://raravel.github.io/2021/06/02/20210602171547_sdfh/</loc>
     
     <lastmod>2021-06-09</lastmod>
@@ -26,20 +12,6 @@
     <loc>https://raravel.github.io/2021/06/02/20210602170932_wergweg/</loc>
     
     <lastmod>2021-06-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://raravel.github.io/2021/06/08/20210608114935_sdafasd/</loc>
-    
-    <lastmod>2021-06-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://raravel.github.io/2021/06/07/20210607175915_asdfasdfasd/</loc>
-    
-    <lastmod>2021-06-08</lastmod>
     
   </url>
   
@@ -124,13 +96,6 @@
   
   <url>
     <loc>https://raravel.github.io/tags/tag2/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.github.io/tags/tag3/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
