@@ -61,3 +61,11 @@ feed:
   type: rss2
   path: feed.xml
   limit: 20
+
+# robots.txt
+## Docs: https://github.com/leecrossley/hexo-generator-robotstxt
+robotstxt:
+  useragent: "*"
+  allow:
+    - "*"
+  sitemap: /sitemap.xml
