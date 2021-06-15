@@ -1,11 +1,11 @@
 title: raravel
-subtitle: 'sadfasdf'
+subtitle: sadfasdf
 description: Description
 keywords: null
 author: raravel
 language: en
 timezone: ''
-url: 'https://raravel.github.io/'
+url: https://raravel.github.io/
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -53,7 +53,7 @@ index_generator:
 plugins:
   - hexo-server
   - hexo-generator-cname
-theme: fluid
+theme: butterfly
 sitemap:
   path: sitemap.xml
 nofollow:
