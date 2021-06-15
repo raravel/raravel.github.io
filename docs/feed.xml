@@ -9,8 +9,33 @@
     <atom:link href="https://raravel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Description</description>
-    <pubDate>Tue, 15 Jun 2021 05:10:04 GMT</pubDate>
+    <pubDate>Tue, 15 Jun 2021 06:55:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>sdfasdf</title>
+      <link>https://raravel.github.io/2021/06/15/20210615155452_sdfasdf/</link>
+      <guid>https://raravel.github.io/2021/06/15/20210615155452_sdfasdf/</guid>
+      <pubDate>Tue, 15 Jun 2021 15:54:52 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;내용&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pr</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>내용</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;fs&#x27;</span>);<br>asdfasdf<br></code></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/">새 카테고리1</category>
+      
+      
+      
+      <comments>https://raravel.github.io/2021/06/15/20210615155452_sdfasdf/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>agweawge</title>
