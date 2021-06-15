@@ -52,6 +52,7 @@ index_generator:
   order_by: '-date'
 plugins:
   - hexo-server
+  - hexo-generator-cname
 theme: fluid
 sitemap:
   path: sitemap.xml
