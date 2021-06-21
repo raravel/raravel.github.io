@@ -31,7 +31,7 @@
       <link href="/2021/06/15/20210615155452_sdfasdf/"/>
       <url>/2021/06/15/20210615155452_sdfasdf/</url>
       
-        <content type="html"><![CDATA[<p>내용</p><figure class="highlight js"><table><tr><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;fs&#x27;</span>);<br>asdfasdf<br></code></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>내용</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line">asdfasdf</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
