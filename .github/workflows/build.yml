@@ -31,7 +31,7 @@ jobs:
       uses: github-actions-x/commit@v2.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'master'
+        push-branch: 'main'
         commit-message: 'build commit'
         force-add: 'true'
         name: 'Github Actions'
