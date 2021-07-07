@@ -2,30 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://raravel.github.io/2021/07/07/20210707105900_%E3%84%B4%E3%85%81%E3%85%87%E3%84%BB%E3%84%B4%E3%85%87%E3%84%B9/</loc>
+    
+    <lastmod>2021-07-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://raravel.github.io/2021/06/21/20210621110505_asdfasdf/</loc>
     
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
     <loc>https://raravel.github.io/2021/06/15/20210615155452_sdfasdf/</loc>
     
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
     <loc>https://raravel.github.io/2021/06/09/20210609231352_agweawge/</loc>
     
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
     <loc>https://raravel.github.io/2021/06/02/20210602170932_wergweg/</loc>
     
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     
   </url>
   
@@ -88,7 +95,7 @@
 
   <url>
     <loc>https://raravel.github.io/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -96,14 +103,14 @@
   
   <url>
     <loc>https://raravel.github.io/tags/tag1/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://raravel.github.io/tags/tag2/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -112,21 +119,21 @@
   
   <url>
     <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC11/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://raravel.github.io/categories/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC1/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC11/%EC%83%88-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC111/</loc>
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
