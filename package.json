@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "name": "git-story",
   "version": "1.0.0",
   "private": true,
@@ -8,7 +7,7 @@
     "meta-data": "node ./node_modules/.bin/hexo-meta-data"
   },
   "hexo": {
-    "version": "5.4.1"
+    "version": "5.4.0"
   },
   "dependencies": {
     "@git-story/hexo-meta-data": "^1.1.1",
@@ -33,41 +32,3 @@
     "hexo-wordcount": "^6.0.1"
   }
 }
-=======
-	"name": "git-story",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"build": "hexo generate && npm run meta-data --scripts-prepend-node-path",
-		"meta-data": "node ./node_modules/.bin/hexo-meta-data"
-	},
-	"hexo": {
-		"version": "5.4.0"
-	},
-	"dependencies": {
-		"@git-story/hexo-meta-data": "^1.1.1",
-		"hexo": "^5.0.0",
-		"hexo-auto-canonical": "^0.1.1",
-		"hexo-autonofollow": "^1.0.1",
-		"hexo-generator-archive": "^1.0.0",
-		"hexo-generator-category": "^1.0.0",
-		"hexo-generator-cname": "^0.3.0",
-		"hexo-generator-feed": "^3.0.0",
-		"hexo-generator-index": "^2.0.0",
-		"hexo-generator-index-pin-top": "^0.2.2",
-		"hexo-generator-robotstxt": "^0.2.0",
-		"hexo-generator-search": "^2.4.2",
-		"hexo-generator-sitemap": "^2.1.0",
-		"hexo-generator-tag": "^1.0.0",
-		"hexo-renderer-ejs": "^1.0.0",
-		"hexo-renderer-marked": "^3.0.0",
-		"hexo-renderer-pug": "latest",
-		"hexo-renderer-stylus": "^1.1.0",
-		"hexo-server": "^2.0.0",
-		"hexo-wordcount": "^6.0.1",
-		"html-to-text": "^8.0.0",
-		"markdown-it": "^12.1.0",
-		"markdown-it-container": "^3.0.0"
-	}
-}
->>>>>>> Stashed changes
