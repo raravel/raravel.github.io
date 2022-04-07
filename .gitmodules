@@ -33,4 +33,21 @@
 [submodule "fluid"]
 	path = themes/fluid
 	url = https://github.com/fluid-dev/hexo-theme-fluid
-
+[submodule "themes/volantis"]
+	path = themes/volantis
+	url = https://github.com/volantis-x/hexo-theme-volantis
+[submodule "themes/ayer"]
+	path = themes/ayer
+	url = https://github.com/Shen-Yu/hexo-theme-ayer
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/next-theme/hexo-theme-next
+[submodule "themes/inside"]
+	path = themes/inside
+	url = https://github.com/ikeq/hexo-theme-inside
+[submodule "themes/cards"]
+	path = themes/cards
+	url = https://github.com/ChrAlpha/hexo-theme-cards
+[submodule "themes/aomori"]
+	path = themes/aomori
+	url = https://github.com/lh1me/hexo-theme-aomori

@@ -46,8 +46,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -75,6 +75,6 @@ exclude: null
 ignore: null
 plugins:
   - hexo-generator-cname
-theme: landscape
+theme: aomori
 deploy:
   type: ''
