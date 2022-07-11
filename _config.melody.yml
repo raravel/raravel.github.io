@@ -2,8 +2,6 @@ busuanzi:
   enable: false
 top_img: https://github.com/raravel/raravel.github.io/blob/main/background.jpg?raw=true
 top_img_height: 40
-menu:
-  Home: /
 theme_color:
   enable: true
   main: "#01947B"
