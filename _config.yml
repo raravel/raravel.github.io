@@ -6,7 +6,12 @@ author: raravel
 language: ko
 timezone: ''
 sitemap:
-  path: sitemap.xml
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: false
+  categories: false
 nofollow:
   enable: true
 feed:

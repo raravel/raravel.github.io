@@ -17,9 +17,9 @@ theme_color:
   header_text_color: "#FFFFFF"
   footer_text_color: "#FFFFFF"
 avatar: https://avatars.githubusercontent.com/u/28672888?v=4
-fireworks: false
+fireworks: true
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.2
   zIndex: -1
