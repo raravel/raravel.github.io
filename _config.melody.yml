@@ -24,12 +24,12 @@ canvas_ribbon:
   alpha: 0.2
   zIndex: -1
   click_to_change: false
-gitment:
+utterances:
   enable: true
   owner: raravel
   repo: raravel.github.io
-  client_id: 208e026472f20e2d3ee2
-  client_secret: 732ba6a451965c771160bdfc8fba12d18ef1638a
+  # client_id: 208e026472f20e2d3ee2
+  # client_secret: 732ba6a451965c771160bdfc8fba12d18ef1638a
 algolia_search:
   enable: false # or false
   hits:

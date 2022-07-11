@@ -1,0 +1,10 @@
+if theme.utterances && theme.utterances.enable
+  #utterances-container
+  script(
+    src='https://utteranc.es/client.js'
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    repo=`${theme.utterances.owner}/${theme.utterances.repo}`
+    async
+  )
