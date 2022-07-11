@@ -25,7 +25,7 @@ jobs:
     - run: rm -rf docs
     - run: npm run build
     - run: rm -rf package-lock.json node_modules docs/images
-    - run: cp -r source/images docs/images
+    - run: [[ -d "source/images" ]] && cp -r source/images docs/images
     - run: git submodule deinit .
     - name: push
       uses: github-actions-x/commit@v2.6
