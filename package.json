@@ -7,7 +7,7 @@
     "meta-data": "node ./node_modules/.bin/hexo-meta-data"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "@git-story/hexo-meta-data": "^1.1.1",
