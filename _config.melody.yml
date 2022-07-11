@@ -1,0 +1,42 @@
+busuanzi:
+  enable: false
+top_img: https://github.com/raravel/raravel.github.io/blob/main/background.jpg?raw=true
+top_img_height: 40
+menu:
+  Home: /
+theme_color:
+  enable: true
+  main: "#01947B"
+  paginator: "#01947B"
+  button_hover: "#FF7242"
+  text_selection: "rgba(61,224,188,0.7)"
+  link_color: "#858585"
+  hr_color: "#82d9b9"
+  tag_start_color: "#A4D8FA"
+  tag_end_color: "#1B9EF3"
+  header_text_color: "#FFFFFF"
+  footer_text_color: "#FFFFFF"
+avatar: https://avatars.githubusercontent.com/u/28672888?v=4
+fireworks: false
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.2
+  zIndex: -1
+  click_to_change: false
+gitment:
+  enable: true
+  owner: raravel
+  repo: raravel.github.io
+  client_id: 208e026472f20e2d3ee2
+  client_secret: 732ba6a451965c771160bdfc8fba12d18ef1638a
+algolia_search:
+  enable: false # or false
+  hits:
+    per_page: 10 # the number of search results per page
+  labels:
+    input_placeholder: 게시글 검색
+    hits_empty: "검색 결과를 찾을 수 없습니다.: ${query}" # if there are no result
+    hits_stats: "${hits} 개의 결과를 ${time} ms 만에 찾았습니다."
+wordcount:
+  enable: true

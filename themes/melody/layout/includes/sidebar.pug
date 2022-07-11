@@ -1,0 +1,42 @@
+- const showToc = is_post() && theme.toc.enable
+-
+  let tocNumber
+  if (page.toc_number !== undefined) tocNumber = page.toc_number
+  else if (theme.toc.number !== undefined) tocNumber = theme.toc.number
+  else tocNumber = true
+  let currentPageType = is_post()
+    ? 'post'
+    : is_home()
+    ? 'index'
+    : 'other'
+  let display = 'false'
+  const sidebar_display = theme.sidebar_display || 'post'
+  if (
+    currentPageType === sidebar_display ||
+    (sidebar_display === 'all') ||
+    (currentPageType !== 'index' && (sidebar_display === 'index-none')) ||
+    (currentPageType !== 'post' && (sidebar_display === 'post-none'))
+  ) {
+    display = 'true'
+  }
+  if (theme.sidebar_display === 'hidden') {
+    display = 'false'
+  }
+-
+#sidebar(data-display=display)
+  if(showToc)
+    .author-info
+      .author-info__avatar.text-center
+        img(src=theme.avatar || url_for('/img/avatar.png'))
+      .author-info__name.text-center
+        a.site-page(href='/')= config.author
+      .author-info__description.text-center= config.description
+    hr
+    .sidebar-toc
+      div.sidebar-toc__title= _p('sidebar.catalog')
+      div.sidebar-toc__progress
+        span.progress-notice= _p('sidebar.have_read')
+        span.progress-num 0
+        span.progress-percentage %
+        div.sidebar-toc__progress-bar
+      div.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
