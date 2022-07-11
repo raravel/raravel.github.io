@@ -1,5 +1,5 @@
-title: raravel
-subtitle: ''
+title: 라라벨의 블로그
+subtitle: 'PHP 안 좋아합니다'
 description: ''
 keywords: null
 author: raravel
@@ -46,8 +46,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
-  line_number: false
+  enable: true
+  line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -75,6 +75,6 @@ exclude: null
 ignore: null
 plugins:
   - hexo-generator-cname
-theme: volantis
+theme: melody
 deploy:
   type: ''
