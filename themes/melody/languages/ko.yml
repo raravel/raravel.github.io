@@ -29,8 +29,8 @@ read_more: 더 읽으러 가기
 post:
   created: 작성일
   updated: 마지막 수정일
-  wordcount: 글자 수
-  min2read: '읽은 시간: %s 분'
+  wordcount: 단어 수
+  min2read: '읽는데 걸린 시간 : %s 분'
   copyright:
     author: 작성자
     link: 주소
