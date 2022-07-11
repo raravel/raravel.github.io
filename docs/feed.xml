@@ -9,8 +9,30 @@
     <atom:link href="https://raravel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 11 Jul 2022 05:47:35 GMT</pubDate>
+    <pubDate>Mon, 11 Jul 2022 05:57:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>테스트 게시글</title>
+      <link>https://raravel.github.io/2022/07/11/test-post/</link>
+      <guid>https://raravel.github.io/2022/07/11/test-post/</guid>
+      <pubDate>Mon, 11 Jul 2022 14:54:36 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;아주아주-테스트-어쩌고-저쩌고&quot;&gt;&lt;a href=&quot;#아주아주-테스트-어쩌고-저쩌고&quot; class=&quot;headerlink&quot; title=&quot;아주아주 테스트 어쩌고 저쩌고&quot;&gt;&lt;/a&gt;아주아주 테스트 어쩌고 저쩌고&lt;/h1&gt;&lt;p&gt;내용이 이렇고 저렇고&lt;/p</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="아주아주-테스트-어쩌고-저쩌고"><a href="#아주아주-테스트-어쩌고-저쩌고" class="headerlink" title="아주아주 테스트 어쩌고 저쩌고"></a>아주아주 테스트 어쩌고 저쩌고</h1><p>내용이 이렇고 저렇고</p><hr><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> fs <span class="keyword">from</span> <span class="string">&#x27;fs/promise&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">bootstrap</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">await</span> fs.<span class="title function_">readFile</span>(<span class="string">&#x27;test&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">bootstrap</span>();</span><br></pre></td></tr></table></figure><p>이미지는 이렇게 올라간다</p><p><img src="https://user-images.githubusercontent.com/28672888/178198029-cd2cab6e-6a27-4fad-8635-1b416c45905b.png" alt="image"></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://raravel.github.io/2022/07/11/test-post/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
