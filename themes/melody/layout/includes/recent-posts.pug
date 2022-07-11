@@ -40,7 +40,7 @@ each article in page.posts.data
       - let expert = content.substring(0, theme.auto_excerpt.length) 
       - content.length > theme.auto_excerpt.length ? expert += ' ...' : ''
       .content!= expert
-      a.more(href=url_for(link) + '#more' style="margin-top: 14px")= _p('read_more')
+      p(style='margin-bottom: 1rem;')
     else
       .content!= article.content
     hr

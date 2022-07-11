@@ -40,3 +40,6 @@ algolia_search:
     hits_stats: "${hits} 개의 결과를 ${time} ms 만에 찾았습니다."
 wordcount:
   enable: true
+auto_excerpt:
+  enable: true
+  length: 500
