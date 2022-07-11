@@ -1,3 +1,4 @@
+favicon: '/favicon.ico'
 busuanzi:
   enable: false
 top_img: https://github.com/raravel/raravel.github.io/blob/main/background.jpg?raw=true
