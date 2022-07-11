@@ -75,6 +75,6 @@ exclude: null
 ignore: null
 plugins:
   - hexo-generator-cname
-theme: aomori
+theme: volantis
 deploy:
   type: ''
