@@ -65,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://raravel.github.io/2020/01/19/20200119-0048/</loc>
-    
-    <lastmod>2022-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://raravel.github.io/categories/index.html</loc>
     
     <lastmod>2022-07-12</lastmod>
@@ -84,6 +75,15 @@
   
   <url>
     <loc>https://raravel.github.io/tags/index.html</loc>
+    
+    <lastmod>2022-07-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.github.io/2020/01/19/20200119-0048/</loc>
     
     <lastmod>2022-07-12</lastmod>
     
