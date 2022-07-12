@@ -9,7 +9,7 @@
     <atom:link href="https://raravel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Laravel을 써본 적 없는 Raravel</description>
-    <pubDate>Tue, 12 Jul 2022 01:19:45 GMT</pubDate>
+    <pubDate>Tue, 12 Jul 2022 01:25:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -246,6 +246,42 @@
       
       
       <comments>https://raravel.github.io/2020/01/19/20200119-0048/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Grep에 자바스크립트 정규식 뿌리기</title>
+      <link>https://raravel.github.io/2019/12/11/20191211-1830/</link>
+      <guid>https://raravel.github.io/2019/12/11/20191211-1830/</guid>
+      <pubDate>Wed, 11 Dec 2019 18:30:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h1&gt;&lt;p&gt;grep 명령어는 유닉스 사용자에게 있어서 뗄레야 뗄 수 없는&lt;/p&gt;
+&lt;p&gt;아주 훌륭한 유틸리티입니다.&lt;/p&gt;
+&lt;p&gt;어느 날,</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="개요"><a href="#개요" class="headerlink" title="개요"></a>개요</h1><p>grep 명령어는 유닉스 사용자에게 있어서 뗄레야 뗄 수 없는</p><p>아주 훌륭한 유틸리티입니다.</p><p>어느 날, 명령어를 사용하다가 문득 든 생각입니다.</p><blockquote><p>자바스크립트 정규식을 사용할 수 있다면 grep의 정규식을 외우지 않고 더 쉽게 검색할 수 있을텐데.</p></blockquote><p>예. 물론 찾아보면 있을법한 프로그램입니다.</p><p>또한 이미 있는 grep이 더 안전하고 빠르고 좋겠죠.</p><p>하지만 얼마 걸리지 않을 것 같아 만들어 보았습니다.</p><hr><h1 id="Typescript"><a href="#Typescript" class="headerlink" title="Typescript"></a>Typescript</h1><p>Javascript의 상위 호환.</p><p>타입에 대한 정의가 가능한 <a href="https://www.typescriptlang.org/">타입스크립트</a>에 한 번 도전해 보았습니다.</p><p>사용하는 방법이 틀린 것 같지만 어쨌든 동작합니다.</p><p>일단 동작한 것에서 만족하죠.</p><hr><h1 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h1><p>일단 <a href="https://nodejs.org/">Node JS</a> 8.x 이상의 버전과 <a href="https://git-scm.com/">Git</a>이 있어야 합니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/raravel/ngrep.git</span><br><span class="line">$ <span class="built_in">cd</span> ngrep</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><p>위 명령어를 입력하면 설치는 끝났습니다.</p><p><code>/usr/bin/ngerp</code> 을 확인할 수 있습니다.</p><hr><h1 id="사용법"><a href="#사용법" class="headerlink" title="사용법"></a>사용법</h1><p>명령어 사용법은 기존 grep 과 유사합니다.</p><p>그러나 단순한 몇 가지의 옵션밖에 없습니다.</p><p>추후 추가할 예정입니다.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Usage: ngrep [search] [file] [options...]</span><br><span class="line">       search: javascript regex pattern string for search.</span><br><span class="line">       file:   file pattern javascript regex string</span><br><span class="line"></span><br><span class="line">Options</span><br><span class="line">  -i, --ignore-case       Ignore case distinctions in both the PATTERN and the input files.</span><br><span class="line">  -r, --recursive         Read  all  files  under each directory.</span><br><span class="line">  -n, --line-number       Prefix each line of output with the 1-based line number within its input file.</span><br><span class="line">  -s, --no-messages       Suppress error messages.</span><br><span class="line">  --exclude FILE_PATTERN  skip files and directories matching FILE_PATTERN</span><br><span class="line">  --exclude-dir PATTERN   directories that match PATTERN will be skipped.</span><br></pre></td></tr></table></figure><p>ngrep 을 사용하여 폴더 내 파일들을 대상으로 검색할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ngrep console <span class="string">&#x27;.*js&#x27;</span></span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/28672888/178387751-b0251d4c-eeb2-4322-ab7d-c84aeb470b99.gif"></p><p>스트림 파이프에 연결해서 stdin 에 입력하여 검색할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cat</span> ngrep.ts | ngrep console</span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/28672888/178387793-60ffe162-bfc0-40b4-9537-5a5491222144.gif"></p><p>자바스크립트 정규식을 사용하여 검색할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cat</span> ngrep.ts | ngrep <span class="string">&quot;con.*err.*\ &#123;2&#125;.*directory&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/28672888/178387856-586b2d50-e8e8-4d48-aa2a-2b44f5b3e73c.gif"></p><p>파일 검색에도 자바스크립트 정규식을 사용할 수 있습니다.</p><p><code>exclude</code>, <code>exclude-dir</code> 옵션에도 사용할 수 있습니다.</p><hr><h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><p><a href="https://github.com/raravel/ngrep">https://github.com/raravel/ngrep</a></p><p>읽어주셔서 감사합니다</p>]]></content:encoded>
+      
+      
+      <category domain="https://raravel.github.io/categories/nodejs/">nodejs</category>
+      
+      <category domain="https://raravel.github.io/categories/nodejs/javascript/">javascript</category>
+      
+      
+      <category domain="https://raravel.github.io/tags/javascript/">javascript</category>
+      
+      <category domain="https://raravel.github.io/tags/typescript/">typescript</category>
+      
+      <category domain="https://raravel.github.io/tags/grep/">grep</category>
+      
+      <category domain="https://raravel.github.io/tags/regex/">regex</category>
+      
+      
+      <comments>https://raravel.github.io/2019/12/11/20191211-1830/#disqus_thread</comments>
       
     </item>
     

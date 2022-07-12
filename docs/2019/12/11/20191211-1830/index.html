@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Laravel을 써본 적 없는 Raravel"><meta name="keywords" content="javascript,typescript,grep,regex"><meta name="author" content="raravel"><meta name="copyright" content="raravel"><meta property="og:title" content="Grep에 자바스크립트 정규식 뿌리기 | 라라벨의 블로그"><meta property="og:description" content="Laravel을 써본 적 없는 Raravel"><meta property="og:type" content="blog"><meta property="og:image" content="https://avatars.githubusercontent.com/u/28672888?v=4"><title>Grep에 자바스크립트 정규식 뿌리기 | 라라벨의 블로그</title><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.0"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '클립보드에 복사되었습니다.',
+    error: '클립보드에 복사할 수 없습니다.',
+    noSupport: '해당 브라우저는 지원하지 않습니다.'
+  },
+  hexoVersion: '5.4.2'
+} </script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/feed.xml" title="라라벨의 블로그" type="application/rss+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="author-info"><div class="author-info__avatar text-center"><img src="https://avatars.githubusercontent.com/u/28672888?v=4"></div><div class="author-info__name text-center"><a class="site-page" href="/">raravel</a></div><div class="author-info__description text-center">Laravel을 써본 적 없는 Raravel</div></div><hr><div class="sidebar-toc"><div class="sidebar-toc__title">목차</div><div class="sidebar-toc__progress"><span class="progress-notice">여기까지 읽었어요!</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%EA%B0%9C%EC%9A%94"><span class="toc-number">1.</span> <span class="toc-text">개요</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Typescript"><span class="toc-number">2.</span> <span class="toc-text">Typescript</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%EC%84%A4%EC%B9%98"><span class="toc-number">3.</span> <span class="toc-text">설치</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%EC%82%AC%EC%9A%A9%EB%B2%95"><span class="toc-number">4.</span> <span class="toc-text">사용법</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Github"><span class="toc-number">5.</span> <span class="toc-text">Github</span></a></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://github.com/raravel/raravel.github.io/blob/main/background.jpg?raw=true)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">라라벨의 블로그</a></span><div class="text-center" style="width: 100%">Grep에 자바스크립트 정규식 뿌리기</div></div><div id="post-info" style="background-color: rgba(0, 0, 0, 0.65)"><div id="post-title">Grep에 자바스크립트 정규식 뿌리기</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-12-11</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/nodejs/">nodejs</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/nodejs/javascript/">javascript</a><div class="post-meta-wordcount"><span>단어 수: </span><span class="word-count">285</span><span class="post-meta__separator">|</span><span>읽는데 걸린 시간 : 1 분</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="개요"><a href="#개요" class="headerlink" title="개요"></a>개요</h1><p>grep 명령어는 유닉스 사용자에게 있어서 뗄레야 뗄 수 없는</p>
+<p>아주 훌륭한 유틸리티입니다.</p>
+<p>어느 날, 명령어를 사용하다가 문득 든 생각입니다.</p>
+<blockquote>
+<p>자바스크립트 정규식을 사용할 수 있다면 grep의 정규식을 외우지 않고 더 쉽게 검색할 수 있을텐데.</p>
+</blockquote>
+<p>예. 물론 찾아보면 있을법한 프로그램입니다.</p>
+<p>또한 이미 있는 grep이 더 안전하고 빠르고 좋겠죠.</p>
+<p>하지만 얼마 걸리지 않을 것 같아 만들어 보았습니다.</p>
+<hr>
+<h1 id="Typescript"><a href="#Typescript" class="headerlink" title="Typescript"></a>Typescript</h1><p>Javascript의 상위 호환.</p>
+<p>타입에 대한 정의가 가능한 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.typescriptlang.org/">타입스크립트</a>에 한 번 도전해 보았습니다.</p>
+<p>사용하는 방법이 틀린 것 같지만 어쨌든 동작합니다.</p>
+<p>일단 동작한 것에서 만족하죠.</p>
+<hr>
+<h1 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h1><p>일단 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://nodejs.org/">Node JS</a> 8.x 이상의 버전과 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://git-scm.com/">Git</a>이 있어야 합니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/raravel/ngrep.git</span><br><span class="line">$ <span class="built_in">cd</span> ngrep</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<p>위 명령어를 입력하면 설치는 끝났습니다.</p>
+<p><code>/usr/bin/ngerp</code> 을 확인할 수 있습니다.</p>
+<hr>
+<h1 id="사용법"><a href="#사용법" class="headerlink" title="사용법"></a>사용법</h1><p>명령어 사용법은 기존 grep 과 유사합니다.</p>
+<p>그러나 단순한 몇 가지의 옵션밖에 없습니다.</p>
+<p>추후 추가할 예정입니다.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Usage: ngrep [search] [file] [options...]</span><br><span class="line">       search: javascript regex pattern string for search.</span><br><span class="line">       file:   file pattern javascript regex string</span><br><span class="line"></span><br><span class="line">Options</span><br><span class="line">  -i, --ignore-case       Ignore case distinctions in both the PATTERN and the input files.</span><br><span class="line">  -r, --recursive         Read  all  files  under each directory.</span><br><span class="line">  -n, --line-number       Prefix each line of output with the 1-based line number within its input file.</span><br><span class="line">  -s, --no-messages       Suppress error messages.</span><br><span class="line">  --exclude FILE_PATTERN  skip files and directories matching FILE_PATTERN</span><br><span class="line">  --exclude-dir PATTERN   directories that match PATTERN will be skipped.</span><br></pre></td></tr></table></figure>
+
+
+<p>ngrep 을 사용하여 폴더 내 파일들을 대상으로 검색할 수 있습니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ngrep console <span class="string">&#x27;.*js&#x27;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://user-images.githubusercontent.com/28672888/178387751-b0251d4c-eeb2-4322-ab7d-c84aeb470b99.gif"></p>
+<p>스트림 파이프에 연결해서 stdin 에 입력하여 검색할 수 있습니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cat</span> ngrep.ts | ngrep console</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://user-images.githubusercontent.com/28672888/178387793-60ffe162-bfc0-40b4-9537-5a5491222144.gif"></p>
+<p>자바스크립트 정규식을 사용하여 검색할 수 있습니다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cat</span> ngrep.ts | ngrep <span class="string">&quot;con.*err.*\ &#123;2&#125;.*directory&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://user-images.githubusercontent.com/28672888/178387856-586b2d50-e8e8-4d48-aa2a-2b44f5b3e73c.gif"></p>
+<p>파일 검색에도 자바스크립트 정규식을 사용할 수 있습니다.</p>
+<p><code>exclude</code>, <code>exclude-dir</code> 옵션에도 사용할 수 있습니다.</p>
+<hr>
+<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/raravel/ngrep">https://github.com/raravel/ngrep</a></p>
+<p>읽어주셔서 감사합니다</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">작성자: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noopener noreferrer" target="_blank">raravel</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">주소: </span><span class="post-copyright-info"><a href="https://raravel.github.io/2019/12/11/20191211-1830/">https://raravel.github.io/2019/12/11/20191211-1830/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">저작권 고지: </span><span class="post-copyright-info">이 블로그의 모든 기사는 별도로 명시하지 않는 한 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 에 따라 라이선스가 부여됩니다.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/javascript/">javascript</a><a class="post-meta__tags" href="/tags/typescript/">typescript</a><a class="post-meta__tags" href="/tags/grep/">grep</a><a class="post-meta__tags" href="/tags/regex/">regex</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2020/01/19/20200119-0048/"><i class="fa fa-chevron-left">  </i><span>C 언어 콘솔 색깔 출력 (RGB 적용)</span></a></div></nav><div id="utterances-container"></div><script src="https://utteranc.es/client.js" issue-term="pathname" theme="github-light" crossorigin="anonymous" repo="raravel/raravel.github.io" async></script></div></div><footer class="footer-bg" style="background-image: url(https://github.com/raravel/raravel.github.io/blob/main/background.jpg?raw=true)"><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2022 By raravel</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="external nofollow noopener noreferrer" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.2" zindex="-1" data-click="false"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>
