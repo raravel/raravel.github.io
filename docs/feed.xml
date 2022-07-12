@@ -9,7 +9,7 @@
     <atom:link href="https://raravel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Laravel을 써본 적 없는 Raravel</description>
-    <pubDate>Tue, 12 Jul 2022 00:28:09 GMT</pubDate>
+    <pubDate>Tue, 12 Jul 2022 00:35:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -105,6 +105,43 @@
       
       
       <comments>https://raravel.github.io/2021/04/21/20210421-1351/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Rust 크로스 컴파일</title>
+      <link>https://raravel.github.io/2021/04/07/20210407-1602/</link>
+      <guid>https://raravel.github.io/2021/04/07/20210407-1602/</guid>
+      <pubDate>Wed, 07 Apr 2021 16:02:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h1&gt;&lt;p&gt;시작은 매우 빠른 속도를 가지며 매일 하는 C언어를 대체할 언어를 찾는 것이었습니다.&lt;/p&gt;
+&lt;p&gt;러스트라는 언어의 존재를 알</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="개요"><a href="#개요" class="headerlink" title="개요"></a>개요</h1><p>시작은 매우 빠른 속도를 가지며 매일 하는 C언어를 대체할 언어를 찾는 것이었습니다.</p><p>러스트라는 언어의 존재를 알게 된 지 1년은 조금 넘었지만</p><p>그동안 딱히 무엇을 위해 다루어야 할지 흥미가 없어 건드리지 않은 언어.</p><p>회사프로젝트에 구겨넣기를 결심하고 크로스 컴파일을 시도했습니다.</p><hr><h1 id="RUST"><a href="#RUST" class="headerlink" title="RUST"></a>RUST</h1><p><img src="https://user-images.githubusercontent.com/28672888/178380230-cce565d6-6a8c-44fc-b23b-bbd4b7424daa.png"></p><p>러스트의 장점은 조금만 검색해 보면 이것 저것 나옵니다.</p><p>하지만 제가 러스트를 하고자 했던 이유는 오로지 새로운 것에 대한 호기심입니다.</p><p>지금 하는 언어들도 제대로 못 하는 주제에 무슨 새로운 언어를 배우나 할 수 있겠지만</p><p>그게 무슨 상관입니까, 내가 재밌는 걸 하는 게 중요한 거지.</p><hr><h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1><p>새로운 언어를 배우면서 가장 기초적인 Hello World!를 출력하는 걸 언제 마지막으로 했을까요?</p><p>적어도 년(Year) 단위가 넘었을 것입니다.</p><p>이번 기회에 새로운 마음가짐으로 간단한 출력하는 프로그램을 만들었습니다.</p><p>물론, <a href="https://doc.rust-lang.org/book/ch01-02-hello-world.html#writing-and-running-a-rust-program">이곳</a>에 적힌 것을 따라쳤을 뿐입니다.</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span>() &#123;</span><br><span class="line">    <span class="built_in">println!</span>(<span class="string">&quot;Hello, world!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/28672888/178380326-fcf4139f-04a9-45e0-9046-423690b7d38c.png"></p><p>오랜만에 느끼는 감동입니다.</p><hr><h1 id="Cross-Compile"><a href="#Cross-Compile" class="headerlink" title="Cross Compile"></a>Cross Compile</h1><p>첫 번째 <a href="#%EA%B0%9C%EC%9A%94">개요</a>에서 말했듯, 저는 러스트를 회사 프로젝트에 도입할 생각이었습니다.</p><p>그러니 제 컴퓨터가 아니라, 장비에서 실행될 수 있도록 크로스 컴파일이 필요합니다.</p><p>제대로 된 공부조차 하지 않고 무작정 몸통박치기부터 날리느라 머리가 다 깨졌지만 결과적으로 성공했으니 웃을 수 있습니다.</p><p><img src="https://user-images.githubusercontent.com/28672888/178380985-675408a8-2754-48b6-bcf3-5b77a6be599a.png" alt="네이버 웹툰 &lt;에이머&gt;"></p><p>저는 Cargo를 이용하여 컴파일했지만 사실 이건 rustc를 쓰는 것입니다.</p><p>자세한 내용은 <a href="https://doc.rust-lang.org/nightly/rustc/what-is-rustc.html?highlight=cargo#what-is-rustc">이곳</a>에 있습니다.</p><p>​</p><p>정말 간단하게 크로스 컴파일용 gcc를 설정으로 저장해 주면 끝납니다.</p><p>근데 멍청한 저는 이걸 성공하기까지 1시간 조금 넘게 걸렸을 뿐입니다.</p><p>​</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># .config/cargo</span><br><span class="line"></span><br><span class="line">[target.aarch64-unknown-linux-gnu]</span><br><span class="line">linker = &quot;실제 gcc 위치&quot;</span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/28672888/178381089-6d63f427-c942-44f9-8744-9c5643e5366f.png"></p><p><img src="https://user-images.githubusercontent.com/28672888/178381099-65794910-c7e2-4f40-a3ff-18e44b4d47eb.png"></p><p>원하는 장비에서 실행되는 걸 확인했습니다.</p><hr><h1 id="Rust와-GCC"><a href="#Rust와-GCC" class="headerlink" title="Rust와 GCC?"></a>Rust와 GCC?</h1><p>아니, 일단 빌드된 것은 좋지만 갑자기 gcc는 왜 참조시켜야 하는 걸까요?</p><p>러스트는 사실 gcc로 이루어진 게 아닐까요?</p><p>사실은 C언어 이면서 다른 언어인척 속이는 세계의 몰래카메라일 가능성을 놓칠 수 없습니다.</p><p>​</p><p>그래서 저는 카메라를 찾기 위해 이곳 저곳을 쑤시고 다녔지만 결과는</p><p><img src="https://user-images.githubusercontent.com/28672888/178381139-98f6e4de-2315-4942-b77b-8061f05443af.png"></p><p>정확하게 이거다!라고 말할 수 있는 건 못 찾았지만</p><p>대충 이건가…? 라고 찍을법한 내용은 찾았습니다.</p><p>​</p><p>일단 먼저 위에 썼던 Cargo의 설명 중 아래 내용을 봅시다.</p><blockquote><p>Most Rust programmers don’t invoke rustc directly, but instead do it through Cargo.</p><blockquote><p>대부분의 프로그래머들은 rustc를 직접적으로 호출하지 않고 Cargo를 거쳐 호출합니다.</p></blockquote></blockquote><p>​</p><p>결국 Cargo는 rustc명령어를 호출한다는 얘기입니다.</p><p>그 중 인자로 넘어간 것에서, 아래 내용을 볼 수 있었습니다.</p><p>​</p><blockquote><p><a href="https://doc.rust-lang.org/rustc/codegen-options/index.html#linker">-C linker=내가 넘긴 gcc 위치</a></p></blockquote><p>​</p><p>위 주소로 들어가보면 linker로 gcc와 이것 저것을 설정할 수 있다고 합니다.</p><p>그러면, linker로 넘기는 옵션에 대해 더 자세한 설명은 <a href="https://rustc-dev-guide.rust-lang.org/overview.html#parallelism">이곳</a>을 봐야합니다.</p><p><img src="https://media3.giphy.com/media/UX08QMbe9BECjRoq3E/giphy.gif?cid=ecf05e47dub4xibwygff4jzcpjh2o7g44qlre1j7fqdjbi4n&rid=giphy.gif" alt="슬슬 머리가 아파오기 시작합니다. 하지만 걱정하지 마세요! 이후 더 아프니까요!"></p><p>제가 일부 알아먹은 소리에 대해 살펴보면, -C 옵션은 codegen옵션입니다.</p><p>코드를 어떻게 생성(generate)할지 옵션을 주는 것이죠.</p><p>​</p><p>rustc는 <a href="https://prev.rust-lang.org/ko-KR/faq.html#what-is-monomorphisation">단형화</a> 과정을 거치는데, 이 때 생성될 코드들을 codegen 단위로 작게 분리합니다.</p><p>이 분리된 덩어리들은 사실 LLVM의 독립된 인스턴스가 생성합니다.</p><p>이후 링커가 분리된 덩어리들을 하나의 바이너리로 결합합니다.</p><p>​</p><p>이 때 여기서 LLVM과 GCC의 관계가 있습니다.</p><p><a href="https://llvm.org/docs/GettingStarted.html#hardware">https://llvm.org/docs/GettingStarted.html#hardware</a></p><p>GCC 컴파일러 위에서도 LLVM이 돌아간다는 얘기입니다.</p><p>그러니 정확하게 얘기할 순 없지만 이 정보들을 가지고 보면,</p><p>대충 그렇지 않을까? 하는 추론정도는 할 수 있습니다.</p><hr><h1 id="Makefile"><a href="#Makefile" class="headerlink" title="Makefile"></a>Makefile</h1><p>우리 회사는 빌드할 때 Makefile을 사용하기 때문에</p><p>이 명령어로도 빌드가 가능해야 합니다.</p><p>물론 그냥 빌드시 Cargo 명령어를 입력하도록 할 수 있지만</p><p>정확하게 어떤 옵션을 넘길건지 명시하는 게 좋습니다.</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">TARGET=hello.rs</span><br><span class="line">EDITION=2018</span><br><span class="line">ERROR_FORMAT=json</span><br><span class="line">NAME=hello</span><br><span class="line">LINKER=GCC 위치</span><br><span class="line"></span><br><span class="line"><span class="section">all: build</span></span><br><span class="line"></span><br><span class="line"><span class="section">build:</span></span><br><span class="line">rustc --crate-name <span class="variable">$(NAME)</span> --edition=<span class="variable">$(EDITION)</span> <span class="variable">$(TARGET)</span> -C linker=<span class="variable">$(LINKER)</span> --target=aarch64-unknown-linux-gnu</span><br><span class="line"></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">rm -f <span class="variable">$(NAME)</span></span><br></pre></td></tr></table></figure><p>저는 정상적으로 빌드되는 걸 확인했습니다.</p><p>감사합니다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://raravel.github.io/categories/rust/">rust</category>
+      
+      <category domain="https://raravel.github.io/categories/rust/study/">study</category>
+      
+      
+      <category domain="https://raravel.github.io/tags/rust/">rust</category>
+      
+      <category domain="https://raravel.github.io/tags/cross-compile/">cross-compile</category>
+      
+      <category domain="https://raravel.github.io/tags/cargo/">cargo</category>
+      
+      <category domain="https://raravel.github.io/tags/llvm/">llvm</category>
+      
+      <category domain="https://raravel.github.io/tags/makefile/">makefile</category>
+      
+      
+      <comments>https://raravel.github.io/2021/04/07/20210407-1602/#disqus_thread</comments>
       
     </item>
     
