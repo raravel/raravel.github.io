@@ -40,3 +40,9 @@
         span.progress-percentage %
         div.sidebar-toc__progress-bar
       div.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
+    if theme.links_title
+      hr
+      .author-info-links
+        .author-info-links__title.text-center= theme.links_title
+        each url, name in theme.links
+          a.author-info-links__name.text-center(href=url)= name

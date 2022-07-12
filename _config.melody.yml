@@ -42,3 +42,9 @@ wordcount:
 auto_excerpt:
   enable: true
   length: 500
+links_title: 라라벨의 지인 목록
+links:
+  Livefordev: https://livefordev.tistory.com/
+  Coxemonkey: https://coxemonkey.tistory.com/
+  yummiyHit: https://yummyhit.github.io/
+  ppotatoG: https://blog.naver.com/thgus2270/
