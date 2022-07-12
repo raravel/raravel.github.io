@@ -25,8 +25,7 @@
 <p>SNI 스니핑 방법을 이용해서 유해사이트를 판단, 차단한다고 하였는데요. 적을 알고 나를 안다면 백전 백승이듯, 이 기능이 무엇인지 잠깐 보도록 합시다.</p>
 <h2 id="HTTPS-통신"><a href="#HTTPS-통신" class="headerlink" title="HTTPS 통신"></a>HTTPS 통신</h2><p><img src="https://user-images.githubusercontent.com/28672888/178391172-6f8a3ee1-9dda-429f-8570-b663ed0f41fe.png"></p>
 <p>OSI 7계층을 보면 HTTP 밑에 TCP 프로토콜이 존재합니다. 물론, 정보의 바다에서 한 번쯤은 봤을만한 얘기죠. HTTP는 TCP 통신으로 진행됩니다. HTTPS는 TLS구요.</p>
-<h2 id="TLS-악수"><a href="#TLS-악수" class="headerlink" title="TLS 악수"></a>TLS 악수</h2><p><img src="https://user-images.githubusercontent.com/28672888/178391205-04d690ca-b69c-43ab-8d29-c2ebe923b249.gif"></p>
-<blockquote>
+<h2 id="TLS-악수"><a href="#TLS-악수" class="headerlink" title="TLS 악수"></a>TLS 악수</h2><blockquote>
 <p>여기서 TLS Handshake에 대해 자세히 다루지 않습니다. 설명하려면 매우 귀찮으니 이거라도 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/">링크</a>를 드리겠습니다.</p>
 </blockquote>
 <p>아무튼 TLS 핸드셰이크 진행중, 클라이언트가 서버에게 보내는 <code>Client Hello</code> 메시지의 내용을 봅시다.</p>
