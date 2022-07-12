@@ -3,174 +3,128 @@
 		"title": "성인사이트 우회 요청 해보기",
 		"href": "2022/03/22/20220322-1823/",
 		"date": "2022-03-22T18:23:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20220322-1823.md",
 		"categories": [
 			"nodejs",
 			"javascript"
 		],
-		"tags": [
-			"javascript",
-			"typescript",
-			"nodejs",
-			"http"
-		],
+		"tags": [],
 		"content": " 해당 글은 velog에 작성했던 글을 옮긴 것입니다. 무려 관심을 105개나 받으면서 월 ..."
 	},
 	{
 		"title": "코드푸시로 완벽한 일렉트론 버전 관리",
 		"href": "2021/07/21/20210721-1411/",
 		"date": "2021-07-21T14:11:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20210721-1411.md",
 		"categories": [
 			"nodejs"
 		],
-		"tags": [
-			"nodejs",
-			"electron",
-			"codepush"
-		],
+		"tags": [],
 		"content": "개요 제가 소피아를 개발하면서 핫픽스나 버전 업데이트를 하는 일이 많았습니다. 거의 배포  ..."
 	},
 	{
 		"title": "[NodeJS] ZIP 파일 구조 및 관리 모듈 제작",
 		"href": "2021/06/23/20210118-1334/",
 		"date": "2021-06-23T19:25:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20210118-1334.md",
 		"categories": [
 			"nodejs",
 			"javascript",
 			"zip"
 		],
-		"tags": [
-			"javascript",
-			"zip",
-			"PK",
-			"nodejs"
-		],
+		"tags": [],
 		"content": "개요시작은 분명 이용자가 거의 없는 게임의 데이터파일을 분석하는 일이었습니다. 어쩌다보니  ..."
 	},
 	{
 		"title": "FRIDA 사용법",
 		"href": "2021/06/23/20210623-1925/",
 		"date": "2021-06-23T19:25:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20210623-1925.md",
 		"categories": [
 			"nodejs"
 		],
-		"tags": [
-			"해킹",
-			"javascript",
-			"android",
-			"frida"
-		],
+		"tags": [],
 		"content": "이 글은 제가 카카오톡 봇 커뮤니티에 작성했던 글을 그대로 복사한 것입니다. 개요안녕하세요 ..."
 	},
 	{
 		"title": "SASS를 알아야 하는 이유",
 		"href": "2021/04/21/20210421-1351/",
 		"date": "2021-04-21T13:51:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20210421-1351.md",
 		"categories": [
 			"sass",
 			"css",
 			"study"
 		],
-		"tags": [
-			"css",
-			"sass"
-		],
+		"tags": [],
 		"content": " 개요저는 사실 CSS와 담을 쌓고 지냅니다. 웹 디자인이 깔끔한 것을 사랑하지만 제가 감 ..."
 	},
 	{
 		"title": "Rust 크로스 컴파일",
 		"href": "2021/04/07/20210407-1602/",
 		"date": "2021-04-07T16:02:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20210407-1602.md",
 		"categories": [
 			"rust",
 			"study"
 		],
-		"tags": [
-			"rust",
-			"cross-compile",
-			"cargo",
-			"llvm",
-			"makefile"
-		],
+		"tags": [],
 		"content": "개요시작은 매우 빠른 속도를 가지며 매일 하는 C언어를 대체할 언어를 찾는 것이었습니다.  ..."
 	},
 	{
 		"title": "Visual Studio 에서 libpng 사용하기",
 		"href": "2020/10/31/20201031-1912/",
 		"date": "2020-10-31T19:12:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20201031-1912.md",
 		"categories": [
 			"C/C++",
 			"study"
 		],
-		"tags": [
-			"C",
-			"C++",
-			"png",
-			"libpng"
-		],
+		"tags": [],
 		"content": "개요시작은 분명 예전에 만들어둔 게임 소스를 빌드했던 것일테죠. 5년전에 C언어로 만든 게 ..."
 	},
 	{
 		"title": "C 언어 콘솔 색깔 출력 (RGB 적용)",
 		"href": "2020/01/19/20200119-0048/",
 		"date": "2020-01-19T00:48:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20200119-0048.md",
 		"categories": [
 			"C/C++"
 		],
-		"tags": [
-			"C",
-			"C++",
-			"console",
-			"color"
-		],
+		"tags": [],
 		"content": " 개요키보드에 손을 올리고 문득 든 생각이 CUI 환경에서 역동적인 효과 애니메이션을 연출 ..."
 	},
 	{
 		"title": "Grep에 자바스크립트 정규식 뿌리기",
 		"href": "2019/12/11/20191211-1830/",
 		"date": "2019-12-11T18:30:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20191211-1830.md",
 		"categories": [
 			"nodejs",
 			"javascript"
 		],
-		"tags": [
-			"javascript",
-			"typescript",
-			"grep",
-			"regex"
-		],
+		"tags": [],
 		"content": "개요grep 명령어는 유닉스 사용자에게 있어서 뗄레야 뗄 수 없는 아주 훌륭한 유틸리티입니 ..."
 	},
 	{
 		"title": "카카오톡 PC 버전 테마 만들기",
 		"href": "2019/11/23/20191123-1631/",
 		"date": "2019-11-23T16:31:00Z",
-		"updated": "2022-07-12T03:38:18Z",
+		"updated": "2022-07-12T05:17:35Z",
 		"src": "source/_posts/20191123-1631.md",
 		"categories": [
 			"study"
 		],
-		"tags": [
-			"카카오톡",
-			"해킹"
-		],
+		"tags": [],
 		"content": "개요 모바일 카카오톡의 테마는 셀 수도 없을 만큼 많습니다. 그러나 PC 버전의 카카오톡은 ..."
 	}
 ]
