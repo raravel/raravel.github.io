@@ -23,9 +23,9 @@ robotstxt:
   allow:
     - '*'
   sitemap: /sitemap.xml
-url: https://raravel.github.io/
+url: https://raravel.dev/
 root: /
-permalink: ':year/:month/:day/:title/'
+permalink: ':title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
