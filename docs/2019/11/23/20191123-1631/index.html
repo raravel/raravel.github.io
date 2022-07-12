@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Laravel을 써본 적 없는 Raravel"><meta name="keywords" content="카카오톡,해킹"><meta name="author" content="raravel"><meta name="copyright" content="raravel"><meta property="og:title" content="카카오톡 PC 버전 테마 만들기 | 라라벨의 블로그"><meta property="og:description" content="Laravel을 써본 적 없는 Raravel"><meta property="og:type" content="blog"><meta property="og:image" content="https://user-images.githubusercontent.com/28672888/178388048-a3a9de1a-76f4-4bb6-918d-5dc0d17f689f.png"><title>카카오톡 PC 버전 테마 만들기 | 라라벨의 블로그</title><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.0"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '클립보드에 복사되었습니다.',
+    error: '클립보드에 복사할 수 없습니다.',
+    noSupport: '해당 브라우저는 지원하지 않습니다.'
+  },
+  hexoVersion: '5.4.2'
+} </script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/feed.xml" title="라라벨의 블로그" type="application/rss+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="author-info"><div class="author-info__avatar text-center"><img src="https://avatars.githubusercontent.com/u/28672888?v=4"></div><div class="author-info__name text-center"><a class="site-page" href="/">raravel</a></div><div class="author-info__description text-center">Laravel을 써본 적 없는 Raravel</div></div><hr><div class="sidebar-toc"><div class="sidebar-toc__title">목차</div><div class="sidebar-toc__progress"><span class="progress-notice">여기까지 읽었어요!</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%EA%B0%9C%EC%9A%94"><span class="toc-number">1.</span> <span class="toc-text">개요</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%ED%8C%8C%EC%9D%BC-%EA%B5%AC%EC%A1%B0"><span class="toc-number">2.</span> <span class="toc-text">파일 구조</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Version-info"><span class="toc-number">3.</span> <span class="toc-text">Version.info</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%ED%95%B4%EB%8B%B9-%ED%96%89%EC%9C%84%EB%8A%94-%EB%B6%88%EB%B2%95%EC%9D%B8%EA%B0%80"><span class="toc-number">4.</span> <span class="toc-text">해당 행위는 불법인가?</span></a></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://user-images.githubusercontent.com/28672888/178388048-a3a9de1a-76f4-4bb6-918d-5dc0d17f689f.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">라라벨의 블로그</a></span><div class="text-center" style="width: 100%">카카오톡 PC 버전 테마 만들기</div></div><div id="post-info" style="background-color: rgba(0, 0, 0, 0.65)"><div id="post-title">카카오톡 PC 버전 테마 만들기</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-23</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/study/">study</a><div class="post-meta-wordcount"><span>단어 수: </span><span class="word-count">495</span><span class="post-meta__separator">|</span><span>읽는데 걸린 시간 : 3 분</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="개요"><a href="#개요" class="headerlink" title="개요"></a>개요</h1><p><img src="https://user-images.githubusercontent.com/28672888/178388048-a3a9de1a-76f4-4bb6-918d-5dc0d17f689f.png"></p>
+<p>모바일 카카오톡의 테마는 셀 수도 없을 만큼 많습니다.</p>
+<p>그러나 PC 버전의 카카오톡은 기본과 엑셀 단 두 개의 테마밖에 존재하지 않습니다. 그래서 한 번 테마를 만들어 보고자 합니다.</p>
+<p>그래봤자 할 수 있는 것은 제한적이겠지만요.</p>
+<hr>
+<h1 id="파일-구조"><a href="#파일-구조" class="headerlink" title="파일 구조"></a>파일 구조</h1><p>먼저 카카오톡이 설치되어 있는 폴더를 한 번 봅니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388104-dc4f7c10-fd12-4fe2-90db-0acf8e3f71ab.png"></p>
+<p>우리가 보아야 할 폴더는 <code>skin/default</code> 폴더입니다.</p>
+<p>그러면 <code>color</code>, <code>font</code>, <code>image</code>, <code>layout</code>, <code>resource</code> 총 다섯 개의 폴더가 나오는데 간단하게 봅니다.</p>
+<p>​</p>
+<p><code>color</code> 폴더는 색상 코드를 지정한 <code>color.xml</code> 을 가지고 있습니다.</p>
+<p>​</p>
+<p><code>font</code> 폴더는 말 그대로 글꼴에 관한 파일들을 가지고 있으나 실질적으로 어떻게 사용되는지 파악되지 않았습니다. 카카오톡 설정에서 글꼴을 바꿔도 저 부분은 변경되지 않더군요.</p>
+<p>​</p>
+<p><code>image</code> 폴더는 버튼이나 기본 프로필, 또는 그림자 등의 이미지들을 가지고 있습니다.</p>
+<p>​</p>
+<p><code>layout</code> 폴더는 카카오톡의 UI 배치를 설정하는 파일들을 가지고 있습니다. ( 추정 ) 해당 파일들은 전부 압축되어 있는데, 이 파일들을 수정한다면 어떤 일이 일어날진 모릅니다.</p>
+<p>​</p>
+<p><code>resource</code> 폴더는 <code>string_merge.xml</code> 파일을 가지고 있는데, 카카오톡 클라이언트에서 사용하는 문자열을 정의해 둔 파일입니다.</p>
+<p>​</p>
+<p>그러면, 해당 파일들을 수정했을 때 적용되는 지 확인해 보겠습니다.</p>
+<p>가장 확인하기 쉬운 <code>string_merge.xml</code> 파일 중 카카오톡 잠금모드 상태일 때의 문자열을 수정해 보겠습니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388208-9dc68553-51ab-4008-801b-04cd553ce70a.png"></p>
+<p>빨간 네모 박스 안의 <strong>잠금모드 상태입니다</strong> 를 수정해 보겠습니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388260-96c1b0a0-756e-4cc2-ad6b-111e9c6f1d6b.png"></p>
+<p><code>string_merge.xml</code> 파일에서 검색하여, 수정하고 저장합니다.</p>
+<p>그리고 카카오톡을 종료한 상황에서 다시 실행해 봅니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388286-04472c1a-a3f3-4268-bb40-e8a54f36d093.png"></p>
+<p>이런, 역시 카카오는 호락호락 당하지 않습니다.</p>
+<hr>
+<h1 id="Version-info"><a href="#Version-info" class="headerlink" title="Version.info"></a>Version.info</h1><p>그렇다면, 우리는 이대로 손을 놓아야 할까요?</p>
+<p>아니죠. 수정할 수 있도록 만들면 됩니다.</p>
+<p>​</p>
+<p>그럼, 해당 파일이 손상되었는지 아닌지는 어떻게 검사할까요?</p>
+<p>애초 프로그램의 메모리에 저장해 둔다면 파일이 엄청 많을 경우 메모리를 많이 차지하게 됩니다.</p>
+<p>​</p>
+<p>처음 실행시킬 때 한 번 검사하기 위해서 많은 용량의 메모리를 차지하고 있는 것은 좋은 방법이 아니죠.</p>
+<p>파일을 검사하기 위해 참조하는 파일은 <code>version.info</code>  파일입니다.</p>
+<p>​</p>
+<p>해당 파일을 열어본다면 카카오톡이 관리하는 파일들이 쭉 있지만, 조금 특수한 문자가 있는 것을 볼 수 있습니다. 이를 분석하기 위해 Hex Editor 로 파일을 엽니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388365-11246312-0fc3-4a80-b7d9-f8e6ce61d18b.png"></p>
+<p>그리고 분석을 합니다.</p>
+<p>조금씩 나눠서 분석한 결과, 파일에는 다음과 같은 규칙이 있다는 걸 알게되었습니다.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">11 00 00 00 : 파일이름 길이</span><br><span class="line">43 72 61 73 68 52 65 70 6F 72 74 65 : 파일 이름 (CrashReporter.exe)</span><br><span class="line">68 1E 3C 00 : 파일 사이즈</span><br><span class="line">9D B2 9B 01 : 파일 Checksum ( 추정 )</span><br></pre></td></tr></table></figure>
+
+<p>가장 첫 줄에 버전 정보를 나타내는 것을 제외하면 이후 모든 규칙이 다음과 같다는 것을 알 수 있습니다.</p>
+<p>이런 패턴을 알아내었으니, 조금 수정해서 다시 시도해 봅니다.</p>
+<p><code>skin\default\resource\string_merge.xml</code> 파일을 <code>skin\default\resource\originalfile.xml</code>  으로 변경하고, 원본 <code>string_merge.xml</code> 파일을 복사하여 만듭니다.</p>
+<p>​</p>
+<p>그리고 <code>string_merge.xml</code> 파일을 다시 파일을 수정해서 실행시켜 봅니다.</p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388464-74bac5f3-ec20-4a8d-b2d8-92c7ddf14c74.png"></p>
+<p>성공입니다.</p>
+<hr>
+<h1 id="해당-행위는-불법인가"><a href="#해당-행위는-불법인가" class="headerlink" title="해당 행위는 불법인가?"></a>해당 행위는 불법인가?</h1><p>파일을 개조하여 클라이언트를 수정하는 행위는 불법으로 보일 수 있습니다.</p>
+<p>게임의 경우는 아예 불법입니다.</p>
+<p>​</p>
+<p>그래서 해당 문제 관련하여, PC 버전 광고를 제거해 주는 프로그램부터 문제는 없는지 찾아보았습니다.</p>
+<p>​</p>
+<p>찾으면 쉽게 관련된 내용이 나오던 중, 해당 관련한 대법원 판결이 있다는 것을 알게 되었습니다.</p>
+<p>​</p>
+<blockquote>
+<p>포털사이트에 접속한 개별 사용자들이 거기에서 제공되는 광고 등 콘텐츠를 본래의 형태와 내용 그대로 열람해야 할 의무가 없다</p>
+</blockquote>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://news.joins.com/article/19984912">관련 기사 링크</a></p>
+<p>​</p>
+<p>기사만으론 정확한 사실을 알기 힘드니 해당 대법원 판결을 직접 찾아보았습니다.</p>
+<p>​</p>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://scourt.go.kr/portal/news/NewsViewAction.work?seqnum=2404&gubun=2&searchOption=&searchWord=">대법원 판결 링크</a></p>
+<p><img src="https://user-images.githubusercontent.com/28672888/178388547-f0c5addd-9ec4-49cb-aa31-ad13b22d7bb3.png" alt="image"></p>
+<p>밑줄 친 내용 중, “<strong>그대로 열람하여야 할 법령상 또는 계약상의 의무를 부담한다고 볼 근거가 없는 이상,</strong>“ 을 주목하여, 프로그램을 설치할 때의 약관동의를 보기 위해 카카오톡을 재설치 해봤으나, 약관동의 페이지는 존재하지 않았으므로 불법이라 보기 힘든 것이 저의 결론입니다.</p>
+<p>긴 글 읽어주셔서 감사합니다.</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">작성자: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noopener noreferrer" target="_blank">raravel</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">주소: </span><span class="post-copyright-info"><a href="https://raravel.github.io/2019/11/23/20191123-1631/">https://raravel.github.io/2019/11/23/20191123-1631/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">저작권 고지: </span><span class="post-copyright-info">이 블로그의 모든 기사는 별도로 명시하지 않는 한 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 에 따라 라이선스가 부여됩니다.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/">카카오톡</a><a class="post-meta__tags" href="/tags/%ED%95%B4%ED%82%B9/">해킹</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2019/12/11/20191211-1830/"><i class="fa fa-chevron-left">  </i><span>Grep에 자바스크립트 정규식 뿌리기</span></a></div></nav><div id="utterances-container"></div><script src="https://utteranc.es/client.js" issue-term="pathname" theme="github-light" crossorigin="anonymous" repo="raravel/raravel.github.io" async></script></div></div><footer class="footer-bg" style="background-image: url(https://user-images.githubusercontent.com/28672888/178388048-a3a9de1a-76f4-4bb6-918d-5dc0d17f689f.png)"><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2022 By raravel</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="external nofollow noopener noreferrer" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.2" zindex="-1" data-click="false"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>
