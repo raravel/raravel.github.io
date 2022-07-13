@@ -1,3 +1,5 @@
+https://raravel.dev/tags/index.html
+https://raravel.dev/20220713-1828/
 https://raravel.dev/20220322-1823/
 https://raravel.dev/20210721-1411/
 https://raravel.dev/20210118-1334/
@@ -9,5 +11,4 @@ https://raravel.dev/20200119-0048/
 https://raravel.dev/20191211-1830/
 https://raravel.dev/20191123-1631/
 https://raravel.dev/categories/index.html
-https://raravel.dev/tags/index.html
 https://raravel.dev/
