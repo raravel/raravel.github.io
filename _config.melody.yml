@@ -23,6 +23,17 @@ canvas_ribbon:
   alpha: 0.2
   zIndex: -1
   click_to_change: false
+toc:
+  enable: true
+  number: true
+sidebar_display: all
+social:
+  github fab: https://github.com/raravel
+  rss fas: https://raravel.dev/feed.xml
+cdn:
+  css:
+    fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
+    fontawesomev5: https://use.fontawesome.com/releases/v5.7.2/css/all.css
 utterances:
   enable: true
   owner: raravel

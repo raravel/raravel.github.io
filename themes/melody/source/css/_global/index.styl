@@ -44,6 +44,7 @@ h6
   .img-alt
     text-decoration: none
 
+#toggle-sidebar-hbg,
 #toggle-sidebar
   position: fixed
   bottom: $sidebar-icon-top
@@ -51,6 +52,9 @@ h6
   z-index: 100
   font-size: $sidebar-icon-size
   cursor: pointer
+
+#toggle-sidebar
+  display: none
 
 #go-up
   position: fixed
@@ -137,7 +141,7 @@ table
 
 @media screen and (max-width: $bg)
   i#toggle-sidebar,
-  #sidebar
+  //#sidebar
     display: none
 
   body
