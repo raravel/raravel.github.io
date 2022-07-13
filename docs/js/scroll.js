@@ -2,10 +2,9 @@ $(function () {
   var initTop = 0
   $('.toc-child').hide()
 
-  // main of scroll
-  $(window).scroll(throttle(function (event) {
+  var onScroll = throttle(function (event) {
     var currentTop = $(this).scrollTop()
-    if (!isMobile()) {
+    if (/*!isMobile()*/ true) {
       // percentage inspired by hexo-theme-next
       scrollPercent(currentTop)
       // head position
@@ -42,7 +41,11 @@ $(function () {
         duration: 200
       })
     }
-  }, 50, 100))
+  }, 50, 100);
+
+  // main of scroll
+  $(window).scroll(onScroll)
+  $(document.body).on('touchmove', onScroll);
 
   // go up smooth scroll
   $('#go-up').on('click', function () {
