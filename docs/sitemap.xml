@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://raravel.dev/tags/index.html</loc>
+    <loc>https://raravel.dev/.well-known/assetlinks.json</loc>
     
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://raravel.dev/20220713-1828/</loc>
+    <loc>https://raravel.dev/tags/index.html</loc>
     
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://raravel.dev/20220322-1823/</loc>
     
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +31,7 @@
   <url>
     <loc>https://raravel.dev/20210721-1411/</loc>
     
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20210118-1334/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,61 +40,16 @@
   <url>
     <loc>https://raravel.dev/20210623-1925/</loc>
     
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://raravel.dev/20210421-1351/</loc>
+    <loc>https://raravel.dev/20220713-1828/</loc>
     
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20210407-1602/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20201031-1912/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20200119-0048/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20191211-1830/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://raravel.dev/20191123-1631/</loc>
-    
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +58,70 @@
   <url>
     <loc>https://raravel.dev/categories/index.html</loc>
     
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20201031-1912/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20210407-1602/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20210421-1351/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20210118-1334/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20191211-1830/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20200119-0048/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://raravel.dev/20191123-1631/</loc>
+    
+    <lastmod>2025-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +130,7 @@
 
   <url>
     <loc>https://raravel.dev/</loc>
-    <lastmod>2022-07-13</lastmod>
+    <lastmod>2025-03-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
